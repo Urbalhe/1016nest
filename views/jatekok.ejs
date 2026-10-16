@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Játékok</title>
+</head>
+<body>
+    <h1>Játékok</h1>
+    <ul>
+        <% jatekok.forEach(jatek => { %>
+            <li><%= jatek.nev %> (azonosító: <%= jatek.id %>)</li>
+        <% }) %>
+    </ul>
+</body>
+</html>
